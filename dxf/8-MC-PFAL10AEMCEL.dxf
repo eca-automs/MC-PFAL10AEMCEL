@@ -23,17 +23,17 @@ $INSBASE
   9
 $EXTMIN
  10
-10000000000
+-0.5
  20
-10000000000
+0.25
  30
 0
   9
 $EXTMAX
  10
--10000000000
+419.5
  20
--10000000000
+297.25
  30
 0
   9
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-243.7851782363977
+232.6792899408284
  22
-151.5647279549718
+150.2573964497041
  13
 0
  23
@@ -1143,9 +1143,9 @@ AcDbViewportTableRecord
  37
 0
  40
-308.1444652908067
+304.0295857988166
  41
-1.799276672694394
+1.680924855491329
  42
 50
  43
@@ -2729,7 +2729,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D1
+*D4
  70
     0
 280
@@ -2747,7 +2747,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D4
+*D2
  70
     0
 280
@@ -2765,7 +2765,7 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-*D2
+*D1
  70
     0
 280
@@ -3571,7 +3571,7 @@ AcDbEntity
 100
 AcDbBlockBegin
   2
-*D1
+*D4
  70
     1
  10
@@ -3579,113 +3579,13 @@ AcDbBlockBegin
  20
 0
   3
-*D1
+*D4
   1
 
   0
 LINE
   5
 D2
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbLine
- 10
-330
- 20
-275
- 11
-318
- 21
-275
-  0
-SOLID
-  5
-D3
-100
-AcDbEntity
-  8
-schematic
-  6
-CONTINUOUS
- 62
-    7
-370
-    0
-100
-AcDbTrace
- 10
-330
- 20
-275
- 30
-0
- 11
-327.5
- 21
-274.5837153422272
- 31
-0
- 12
-327.5
- 22
-275.4162846577728
- 32
-0
- 13
-327.5
- 23
-275.4162846577728
- 33
-0
-  0
-ENDBLK
-  5
-56
-330
-54
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-58
-330
-57
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-*D4
- 70
-    1
- 10
-0
- 20
-0
-  3
-*D4
-  1
-
-  0
-LINE
-  5
-D4
 100
 AcDbEntity
   8
@@ -3709,7 +3609,7 @@ AcDbLine
   0
 SOLID
   5
-D5
+D3
 100
 AcDbEntity
   8
@@ -3749,9 +3649,9 @@ AcDbTrace
   0
 ENDBLK
   5
-59
+56
 330
-57
+54
 100
 AcDbEntity
   8
@@ -3761,9 +3661,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-5B
+58
 330
-5A
+57
 100
 AcDbEntity
   8
@@ -3785,7 +3685,7 @@ AcDbBlockBegin
   0
 LINE
   5
-D6
+D4
 100
 AcDbEntity
   8
@@ -3809,7 +3709,7 @@ AcDbLine
   0
 SOLID
   5
-D7
+D5
 100
 AcDbEntity
   8
@@ -3844,6 +3744,106 @@ AcDbTrace
 326.5
  23
 260.4162846577728
+ 33
+0
+  0
+ENDBLK
+  5
+59
+330
+57
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+5B
+330
+5A
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+*D1
+ 70
+    1
+ 10
+0
+ 20
+0
+  3
+*D1
+  1
+
+  0
+LINE
+  5
+D6
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbLine
+ 10
+330
+ 20
+275
+ 11
+318
+ 21
+275
+  0
+SOLID
+  5
+D7
+100
+AcDbEntity
+  8
+schematic
+  6
+CONTINUOUS
+ 62
+    7
+370
+    0
+100
+AcDbTrace
+ 10
+330
+ 20
+275
+ 30
+0
+ 11
+327.5
+ 21
+274.5837153422272
+ 31
+0
+ 12
+327.5
+ 22
+275.4162846577728
+ 32
+0
+ 13
+327.5
+ 23
+275.4162846577728
  33
 0
   0
